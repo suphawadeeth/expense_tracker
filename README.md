@@ -25,7 +25,7 @@ Expense Tracker functions by consistently recording your expenses over time and 
 
 Here's a glimpse of what using Expense Tracker looks like:
 
-![Expense Tracker Analytics](/Users/kt/Desktop/Project/expense_tracker/monthly_exp_pie.png)
+![Expense Tracker Analytics](https://github.com/suphawadeeth/expense_tracker/blob/master/monthly_exp_pie.png)
 *Caption: Visual analytics and breakdown of your expenses*
 
 ### Monthly Chart
@@ -33,7 +33,7 @@ Here's a glimpse of what using Expense Tracker looks like:
 *Caption: Analyze your monthly spending patterns with a bar chart.*
 
 ### Yearly Chart
-![Yearly Chart](/Users/kt/Desktop/Project/expense_tracker/yearly_tot_exp_bar.png)
+![Yearly Chart](https://github.com/suphawadeeth/expense_tracker/blob/master/yearly_tot_exp_bar.png)
 *Caption: Gain insights into your yearly expenses through a bar chart.*
 
 This example snapshot illustrates the user interface and some of the features you can expect when using the Expense Tracker. Feel free to explore the app and track your expenses with ease!
