@@ -29,7 +29,7 @@ Here's a glimpse of what using Expense Tracker looks like:
 *Caption: Visual analytics and breakdown of your expenses*
 
 ### Monthly Chart
-![Monthly Chart](/Users/kt/Desktop/Project/expense_tracker/monthly_exp_bar.png)
+![Monthly Chart](https://github.com/suphawadeeth/expense_tracker/blob/master/monthly_exp_bar.png)
 *Caption: Analyze your monthly spending patterns with a bar chart.*
 
 ### Yearly Chart
