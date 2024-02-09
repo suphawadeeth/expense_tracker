@@ -57,7 +57,6 @@ Feel free to experiment with the example record and provide feedback or contribu
 I am open to suggestions, collaborations, and discussions with fellow developers, data analysts, data scientists, and anyone passionate about data. Let's connect and help each other grow! Feel free to reach out through the following channels:
 
 - **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/bunthot/)
-- **GitHub**: [Check out my GitHub](https://github.com/suphawadeeth)
 - **Email**: Drop me a message at bunthot.su(at)proton.me
 
 Whether you have feedback, ideas, or just want to chat about data-related topics, I look forward to hearing from you. Let's build and learn together!
