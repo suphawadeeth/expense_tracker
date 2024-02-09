@@ -21,6 +21,23 @@ Expense Tracker functions by consistently recording your expenses over time and 
 2. **Monthly and Yearly Summaries**: Obtain comprehensive breakdowns of your spending at regular intervals.
 3. **Visual Analytics**: Utilize graphical representations to better understand your financial trends.
 
+## Example Snapshot
+
+Here's a glimpse of what using Expense Tracker looks like:
+
+![Expense Tracker Analytics](/Users/kt/Desktop/Project/expense_tracker/monthly_exp_pie.png)
+*Caption: Visual analytics and breakdown of your expenses*
+
+### Monthly Chart
+![Monthly Chart](/Users/kt/Desktop/Project/expense_tracker/monthly_exp_bar.png)
+*Caption: Analyze your monthly spending patterns with a bar chart.*
+
+### Yearly Chart
+![Yearly Chart](/Users/kt/Desktop/Project/expense_tracker/yearly_tot_exp_bar.png)
+*Caption: Gain insights into your yearly expenses through a bar chart.*
+
+This example snapshot illustrates the user interface and some of the features you can expect when using the Expense Tracker. Feel free to explore the app and track your expenses with ease!
+
 ## Future Plans
 
 The next step in this project is to develop a Budget Planning App, which will not only track expenses but also help users plan their budgets effectively. The Budget Planning App will include features such as:
@@ -45,6 +62,7 @@ The program allows users to start from zero records, and it will record expenses
 3. Input your name when prompted for 'Your name:' to start recording your spending and follow the steps.
    - Alternatively, input 'myexpenses' when prompted for 'Your name:' to use the example spending record to see how this works.
 4. Explore the features of the program, analyze your spending habits, and gain insights into your expenses.
+
 
 ## Future Development
 
