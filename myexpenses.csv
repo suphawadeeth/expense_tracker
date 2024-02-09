@@ -1,0 +1,39 @@
+date,description,category,amount
+2023-11-01,food,Food & Grocery,162.58
+2023-11-01,rossmann,Healthcare & Drug,29.94
+2023-11-01,Rent,Rent,450.0
+2023-11-01,flight and bus,Transport & Car,140.05
+2023-11-01,withdraw,Cash,100.0
+2023-11-01,cloth,Shopping,82.13
+2023-11-01,ATM,ATM,70.0
+2023-11-01,meals,Bar & Restaurants,65.97
+2023-11-01,accomodation,Travel,44.99
+2023-11-01,internet,Household & Utilities,34.99
+2023-12-01,withdraw,Cash,0.0
+2023-12-01,rossmann,Healthcare & Drug,66.27
+2023-12-01,Rent,Rent,450.0
+2023-12-01,flight and bus,Transport & Car,49.0
+2023-12-01,food,Food & Grocery,164.34
+2023-12-01,cloth,Shopping,147.5
+2023-12-01,ATM,ATM,0.0
+2023-12-01,meals,Bar & Restaurants,0.0
+2023-12-01,internet,Household & Utilities,34.99
+2023-12-01,accomodation,Travel,0.0
+2024-01-01,flight and bus,Transport & Car,49.0
+2024-01-01,donation,Giving,10.0
+2024-01-01,food,Food & Grocery,147.78
+2024-01-01,rossmann,Healthcare & Drug,24.73
+2024-01-01,cloth,Shopping,122.26
+2024-01-01,Rent,Rent,450.0
+2024-01-01,ATM,ATM,0.0
+2024-01-01,meals,Bar & Restaurants,0.0
+2024-01-01,accomodation,Travel,0.0
+2024-01-01,internet,Household & Utilities,34.99
+2024-01-01,withdraw,Cash,0.0
+2024-02-03,lidl,Food & Grocery,9.81
+2024-02-03,rossmann,Healthcare & Drug,2.49
+2024-02-03,kaufland,Food & Grocery,2.03
+2024-02-06,invest,Savings & Investments,35.0
+2024-02-08,dm,Healthcare & Drug,2.8
+2024-02-08,lidl,Food & Grocery,5.51
+2024-02-09,invest,Savings & Investments,10.0
