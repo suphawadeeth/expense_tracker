@@ -2,9 +2,10 @@
 Expense Tracker is a simple Python program designed to empower users to meticulously record every dollar spent on their expenses.
 
 ## Why?
-The underlying motivation behind developing Expense Tracker is the recognition that effective money management is integral to financial well-being. Often, the primary reason people face financial challenges is due to a lack of proper money management.
+### Problem:
+The underlying motivation behind developing Expense Tracker is the recognition that effective money management is integral to financial well-being. Often, the **primary reason people face financial challenges is due to a lack of proper money management**.
 
-Emphasizing the significance of financial planning, Expense Tracker is rooted in the principle that budgeting is among the top 5 habits observed in millionaires.
+Highlighting the importance of financial planning, keeping track of your expenses stems from the fact that budgeting is one of the top 5 habits seen in millionaires.
 
 ### The Path to Wealth
 Planning your budget serves as a crucial step on the path to wealth. Before amassing a fortune, it is essential to have a clear understanding of your current financial standing.
