@@ -7,7 +7,7 @@ def emergency_fund_calculator(name):
     df['date'] = pd.to_datetime(df['date']) #change data into the datetime type
     df['year_month'] = df['date'].dt.to_period('M').astype(str) #extract YYYY-MM 
     df = df[df['date'] < dt.date.today().strftime("%Y-%m")] #filter all data except current month
-    avg_monthly = df.groupby(['year_month']).sum().mean() #calculate average amount each category
+    avg_monthly = df.groupby(['year_month']).sum().mean() #calculate average amount
     
     fam_status = input("""Enter a number that describes your status: \n
     '1' single with no dependents & a stable income \n 
