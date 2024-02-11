@@ -4,11 +4,13 @@ The Emergency Fund Calculator is a Python program designed to assist you in dete
 
 ## Assess Your Spending Status
 
-After understanding your spending status, congratulations are in order if you are debt-free! You can proceed to the next step, which involves setting up your emergency fund. However, if you have outstanding debts, prioritize addressing them before establishing your emergency fund.
+After understanding your spending status, congrats if you are debt-free! You can now move on to the next step: setting up your emergency fund.  
+
+However, if you have debts, prioritize on paying them off before establishing your emergency fund.
 
 ## What Is an Emergency Fund?
 
-An emergency fund is money reserved for life's unexpected expenses, such as car repairs, medical emergencies, or job loss. This fund provides the financial flexibility to handle both major and minor surprises in life[^1^].
+An emergency fund is money you set aside for life’s unexpected expenses, like car repairs, hospital visits, and even job loss. This money gives you the power to hand over cash to cover the big and small surprises that come your way[^1^].
 
 ## Why Have an Emergency Fund?
 
@@ -35,3 +37,17 @@ For further insights into financial topics, I recommend exploring [Ramsey Soluti
 
 ### Reference:
 [^1^]: [A Guide to Your Emergency Fund](https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund)
+
+## Future Plans and Features
+
+This Emergency Fund Calculator is part of a larger initiative to build a comprehensive Budget Planning App. The app will not only help you calculate your emergency fund but also assist in planning how much to save each month to reach your financial goals.
+
+...
+
+## Let's Connect and Collaborate!
+I am open to suggestions, collaborations, and discussions with fellow developers, data analysts, data scientists, and anyone passionate about data. Let's connect and help each other grow! Feel free to reach out through the following channels:
+
+- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/bunthot/)
+- **Email**: bunthot.su(at)proton.me
+
+Whether you have feedback, ideas, or just want to chat about data-related topics, I look forward to hearing from you. Let's build and learn together!
