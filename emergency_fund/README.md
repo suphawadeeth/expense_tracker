@@ -35,9 +35,6 @@ These funds should be set aside in an untouchable but easily accessible account,
 
 For further insights into financial topics, I recommend exploring [Ramsey Solutions](https://www.ramseysolutions.com/), where you can gain valuable knowledge on building wealth, even with an ordinary income.
 
-### Reference:
-[^1^]: [A Guide to Your Emergency Fund](https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund)
-
 ## Future Plans and Features
 
 This Emergency Fund Calculator is part of a larger initiative to build a comprehensive Budget Planning App. The app will not only help you calculate your emergency fund but also assist in planning how much to save each month to reach your financial goals.
@@ -51,3 +48,6 @@ I am open to suggestions, collaborations, and discussions with fellow developers
 - **Email**: bunthot.su(at)proton.me
 
 Whether you have feedback, ideas, or just want to chat about data-related topics, I look forward to hearing from you. Let's build and learn together!
+
+### Reference:
+[^1^]: [A Guide to Your Emergency Fund](https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund)
