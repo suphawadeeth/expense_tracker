@@ -79,7 +79,6 @@ def emerg_fund_status():
     fig.update_yaxes(visible=False, showticklabels=False)
     fig.add_vline(x=f"{em_goal}", line_width=3, line_dash="dash", line_color="#b68100")
     fig.write_html("images/fig1.html")
-    fig.write_image("images/fig1.pdf")
     fig.write_image("images/fig1.png")
     fig.show()
 
