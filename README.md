@@ -70,6 +70,15 @@ The current version of the Expense Tracker is designed for personal use, saving 
 
 Feel free to experiment with the example record and provide feedback or contribute to the ongoing development.
 
+**Updated**: 
+2024/02/15
+- Connecting to SQL database (done)
+- Emergency Fund Calculator was developed under this project as well. And it was done and ready to use.
+
+Next steps:
+- design a budget app that allow user to plan their budget every month
+
+
 ## Let's Connect and Collaborate!
 
 I am open to suggestions, collaborations, and discussions with fellow developers, data analysts, data scientists, and anyone passionate about data. Let's connect and help each other grow! Feel free to reach out through the following channels:
