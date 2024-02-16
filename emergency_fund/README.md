@@ -41,10 +41,10 @@ For further insights into financial topics, I recommend exploring [Ramsey Soluti
 Introducing the Emergency Fund Planner! This program helps you analyze your emergency fund status and create a plan to achieve your financial goals. Two example screenshots showcase different scenarios:
 
 1. **Successful Emergency Fund Build:**
-   - [Screenshot: Successful Build](link_to_successful_build_screenshot)
+   - [Screenshot: Successful Build](https://github.com/suphawadeeth/expense_tracker/blob/master/emergency_fund/images/exceed_fund.png)
 
 2. **Shortened Amount Plan:**
-   - [Screenshot: Shortened Amount Plan](link_to_shortened_amount_plan_screenshot)
+   - [Screenshot: Shortened Amount Plan](https://github.com/suphawadeeth/expense_tracker/blob/master/emergency_fund/images/shortened_fund.png)
 
 The program assists in setting up a plan for the 'shortened' amount to guide you on your financial journey.
 
@@ -62,7 +62,7 @@ The program assists in setting up a plan for the 'shortened' amount to guide you
 
 ### 3. Provide Your Financial Status:
 
-- The program will ask for your financial status. Enter the number that corresponds to the best description of your situation. A visual guide is provided in the program or refer to the [example picture](add link to the example picture).
+- The program will ask for your financial status. Enter the number that corresponds to the best description of your situation. 
 
 ### 4. Enter Emergency Fund Account Balance:
 
