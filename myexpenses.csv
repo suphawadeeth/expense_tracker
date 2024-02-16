@@ -33,7 +33,20 @@ date,description,category,amount
 2024-02-03,lidl,Food & Grocery,9.81
 2024-02-03,rossmann,Healthcare & Drug,2.49
 2024-02-03,kaufland,Food & Grocery,2.03
-2024-02-06,invest,Savings & Investments,35.0
+2024-02-06,invest,Investments,35.0
 2024-02-08,dm,Healthcare & Drug,2.8
 2024-02-08,lidl,Food & Grocery,5.51
-2024-02-09,invest,Savings & Investments,10.0
+2024-02-09,invest,Investments,10.0
+2024-02-10,kaufland,Food & Grocery,12.34
+2024-02-10,lidl,Food & Grocery,7.64
+2024-02-12,saving,Savings,65.0
+2024-02-13,meal,Bar & Restaurants,2.54
+2024-02-13,dm,Healthcare & Drug,3.6
+2024-02-13,mueller,Healthcare & Drug,2.76
+2024-02-13,invest,Other,10.0
+2024-02-14,dm,Healthcare & Drug,0.95
+2024-02-14,journal,Personal Development,8.0
+2024-02-14,aldi,Food & Grocery,17.24
+2024-02-15,dm,Healthcare & Drug,1.65
+2024-02-15,meal,Bar & Restaurants,3.15
+2024-02-15,invest,Other,20.0
