@@ -1,6 +1,6 @@
-# Emergency Fund Calculator
+# Emergency Fund Planner
 
-The Emergency Fund Calculator is a Python program designed to assist you in determining the amount you should set aside for your emergency fund. This program extends from the previous work, "Expense Tracker."
+The Emergency Fund Planner is a Python program designed to assist you in analyzing your emergency fund status and planning to achieve your financial goals. This program is an extension of the previous work, "Expense Tracker."
 
 ## Assess Your Spending Status
 
@@ -35,13 +35,64 @@ These funds should be set aside in an untouchable but easily accessible account,
 
 For further insights into financial topics, I recommend exploring [Ramsey Solutions](https://www.ramseysolutions.com/), where you can gain valuable knowledge on building wealth, even with an ordinary income.
 
+
+## Emergency Fund Planning Feature
+
+Introducing the Emergency Fund Planner! This program helps you analyze your emergency fund status and create a plan to achieve your financial goals. Two example screenshots showcase different scenarios:
+
+1. **Successful Emergency Fund Build:**
+   - [Screenshot: Successful Build](link_to_successful_build_screenshot)
+
+2. **Shortened Amount Plan:**
+   - [Screenshot: Shortened Amount Plan](link_to_shortened_amount_plan_screenshot)
+
+The program assists in setting up a plan for the 'shortened' amount to guide you on your financial journey.
+
+## Usage Example
+
+### 1. Run the Program:
+
+- Open a terminal or command prompt.
+- Navigate to the directory containing the Emergency Fund Planner program.
+- Execute the program, e.g., by running `python3 emergency_fund_planner.py`.
+
+### 2. Enter Your Name or Use Existing Expenses Dataset:
+
+- When prompted, enter 'test' if using the provided example dataset ('test.csv') or enter your name if you've built your own expenses dataset using the expense_tracker app.
+
+### 3. Provide Your Financial Status:
+
+- The program will ask for your financial status. Enter the number that corresponds to the best description of your situation. A visual guide is provided in the program or refer to the [example picture](add link to the example picture).
+
+### 4. Enter Emergency Fund Account Balance:
+
+- If you already have an emergency fund, enter the current balance when prompted. 
+- If you don't have one, enter '0'.
+
+### 5. View Emergency Fund Status Plot:
+
+- The program will generate a plot showing your emergency fund status. The plot will be saved locally as .png file and .html for an interactive function.
+- The dashed line represents the emergency fund goal. If your balance exceeds the goal, it will be indicated accordingly.
+
+### 6. Plan Creation:
+
+- Based on your status, the program will guide you to create a plan. Follow the instructions to input the necessary details.
+- As a result, the program will display the plan you've created. For example:
+    - Your PLAN:
+      - Save '326' every month for the next 9 months.
+
+### 7. Explanation:
+
+- This program is an extension of the expense_tracker app. The expense_tracker generates a CSV file. The CSV file is then utilized by the Emergency Fund Planner to assist in creating a personalized emergency fund plan.
+
 ## Future Plans and Features
 
-This Emergency Fund Calculator is part of a larger initiative to build a comprehensive Budget Planning App. The app will not only help you calculate your emergency fund but also assist in planning how much to save each month to reach your financial goals.
+The Emergency Fund Planner is part of a larger initiative to build a comprehensive Budget Planning App. The app will not only help you calculate your emergency fund but also assist in planning how much to save each month to reach your financial goals.
 
 ...
 
 ## Let's Connect and Collaborate!
+
 I am open to suggestions, collaborations, and discussions with fellow developers, data analysts, data scientists, and anyone passionate about data. Let's connect and help each other grow! Feel free to reach out through the following channels:
 
 - **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/bunthot/)
@@ -51,3 +102,4 @@ Whether you have feedback, ideas, or just want to chat about data-related topics
 
 ## Reference:
 [^1^]: [A Guide to Your Emergency Fund](https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund)
+
