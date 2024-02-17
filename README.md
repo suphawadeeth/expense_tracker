@@ -84,10 +84,8 @@ Feel free to experiment with the example record and provide feedback or contribu
       *Caption: The user has successfully built the emergency fund (labeled as exceed +), surpassing the set goal. The dashed line indicates the emergency fund goal, calculated based on their expenses.*
 
       - **Case 2: Emergency Fund Status Below Goal**
-      ```markdown
       ![Status Bar|Case 2](https://github.com/suphawadeeth/expense_tracker/blob/master/emergency_fund/images/shortened_fund.png)
       *Caption: The user's emergency fund balance is below the goal (dashed line). The plot displays the current balance and the shortened amount needed to reach the goal (labeled as shortened -). This visualization helps users plan to achieve their financial objectives.*
-      ```
 
 Next steps:
 - design a budget app that allow user to plan their budget every month
