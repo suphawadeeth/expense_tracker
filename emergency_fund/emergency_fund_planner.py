@@ -5,8 +5,6 @@ import plotly.express as px
 import warnings
 warnings.filterwarnings('ignore')
 import os
-if not os.path.exists("images"):
-    os.mkdir("images")
 
 def emergency_fund_calculator():
     
@@ -56,16 +54,19 @@ def emerg_fund_status():
         diff_color = "#fecb52"
         base_amount = em_goal
         balance = 'Fund Filled'
-        
     else:
         position = 'Shortened (-)'
         diff_color = "#e45756"
         balance = 'Balance'
-        
     data = [['Goal',em_goal,'set'], [f'{balance}',base_amount,'active'], [f'{position}',diff,'active']]
     df = pd.DataFrame(data, columns=['type','amount','status'])
     grouped = df[df["status"].str.contains("set")==False]
 
+    # create subdirectory, for saving plot images
+    if not os.path.exists("images"):
+        os.mkdir("images")
+
+    # create bar plot
     fig = px.bar(grouped, x="amount", y="status", color='type', orientation='h',
                  hover_data=["type"],
                  height=250, 
@@ -81,7 +82,6 @@ def emerg_fund_status():
     fig.write_html("images/fig1.html")
     fig.write_image("images/fig1.png")
     fig.show()
-
     return em_goal, base_amount
 
 def emerg_saving_plan(diff, em_goal):
@@ -97,11 +97,9 @@ def emerg_saving_plan(diff, em_goal):
             if accept == '1':
                 print(f"""
                 Your GOAL:
-
                 - have '{em_goal}' in your emergency fund account
 
                 Your PLAN:
-
                 - save '{saving_amount_per_mouth}' every month, for the next {n_months} months
                 """)
                 break
