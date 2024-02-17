@@ -70,10 +70,26 @@ The current version of the Expense Tracker is designed for personal use, saving 
 
 Feel free to experiment with the example record and provide feedback or contribute to the ongoing development.
 
-**Updated**: 
-2024/02/15
-- Connecting to SQL database (done)
-- Emergency Fund Calculator was developed under this project as well. And it was done and ready to use.
+**Update History:**
+**2024/02/15:**
+- Implemented a connection to the SQL database (completed).
+- Developed the Emergency Fund Calculator as part of this project; it is now completed and ready for use.
+
+**2024/02/17:**
+- Introduced the Emergency Fund Planner (completed).
+   - This feature provides users with an overview of their fund status, as illustrated in the examples below:
+
+      - **Case 1: Successful Emergency Fund Build**
+      ```markdown
+      ![Status Bar|Case 1](https://github.com/suphawadeeth/expense_tracker/blob/master/yearly_tot_exp_bar.png)
+      *Caption: The user has successfully built the emergency fund (labeled as exceed +), surpassing the set goal. The dashed line indicates the emergency fund goal, calculated based on their expenses.*
+      ```
+
+      - **Case 2: Emergency Fund Status Below Goal**
+      ```markdown
+      ![Status Bar|Case 2](https://github.com/suphawadeeth/expense_tracker/blob/master/yearly_tot_exp_bar.png)
+      *Caption: The user's emergency fund balance is below the goal (dashed line). The plot displays the current balance and the shortened amount needed to reach the goal (labeled as shortened -). This visualization helps users plan to achieve their financial objectives.*
+      ```
 
 Next steps:
 - design a budget app that allow user to plan their budget every month
