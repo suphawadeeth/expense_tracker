@@ -6,8 +6,6 @@ import sqlalchemy as alch
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 import os
-if not os.path.exists("images"):
-    os.mkdir("images")
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -110,6 +108,10 @@ def analyze_expense(df):
     cat_names = grouped_m.reset_index() #after calculate, we'll list the category names ranked by the amount of expenses
     cat_names = cat_names['category'].values.tolist() #get the category names
     
+    # create 'images' directoy, for saving images from plotting
+    if not os.path.exists("images"):
+        os.mkdir("images")
+
     # monthly expenses
     fig = px.pie(grouped_m, values='amount', 
                  names = cat_names, color=cat_names,
@@ -166,7 +168,6 @@ def write_to_sql(df, name, recent_data=None):
 
 
 def main():
-    
     action = input("""
     Enter '1' to ADD expense \n
     Enter '2' to VIEW your expenses:
