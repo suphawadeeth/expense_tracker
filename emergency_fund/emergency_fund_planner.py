@@ -7,16 +7,13 @@ warnings.filterwarnings('ignore')
 import os
 
 def emergency_fund_calculator():
-    
     """
     This function will calculate your emergency fund based on your expenses and your situation. 
     As a result, the user will receive the amount they should have for their emergency fund.
     """
-    
     name = input('Enter your name: ')
-    
     df = pd.read_csv(f'{name}.csv')
-    df = df[df["category"].str.contains("Savings & Investments") == False] # drop the "Savings & Investments" if any
+    df = df[df["category"].str.contains("Savings|Investments", regex=True) == False] # drop the "Savings & Investments" if any
     df['date'] = pd.to_datetime(df['date']) #change data into the datetime type
     df['year_month'] = df['date'].dt.to_period('M').astype(str) #extract YYYY-MM 
     df = df[df['date'] < dt.date.today().strftime("%Y-%m")] #filter all data except current month
@@ -30,14 +27,11 @@ def emergency_fund_calculator():
     '5' someone in your home is chronically ill \n 
     '6' you or your partner is self-employed, works on commision, has a irregular income \n 
     """)
-    
     if fam_status in ['1','2']:
         em_goal = avg_monthly*3
     else:
         em_goal = avg_monthly*6
-    
     print("YOUR EMERGENCY FUND GOAL: ", em_goal)
-
     return em_goal
 
 def emerg_fund_status():
@@ -88,7 +82,7 @@ def emerg_saving_plan(diff, em_goal):
     if diff > 0:
         while True:
             n_months = input('Enter number of months you aim to hit the goal: ')
-            saving_amount_per_mouth = round(em_goal/int(n_months))
+            saving_amount_per_mouth = round(diff/int(n_months))
             print(f"\n In the next {n_months} months, you will save '{saving_amount_per_mouth}' aside for your emergency fund each month")
             accept = input("""
             Enter '1' to ACCEPT this plan 
