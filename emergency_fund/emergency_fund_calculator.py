@@ -3,7 +3,7 @@ import datetime as dt
 
 def emergency_fund_calculator(name):
     df = pd.read_csv(f'{name}.csv')
-    df = df[df["category"].str.contains("Savings & Investments") == False] # drop the "Savings & Investments" if any
+    df = df[df["category"].str.contains('Savings|Investments',regex=True) == False] # drop the "Savings & Investments" if any
     df['date'] = pd.to_datetime(df['date']) #change data into the datetime type
     df['year_month'] = df['date'].dt.to_period('M').astype(str) #extract YYYY-MM 
     df = df[df['date'] < dt.date.today().strftime("%Y-%m")] #filter all data except current month
