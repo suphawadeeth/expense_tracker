@@ -48,7 +48,7 @@ def cumulative_expenses():
         desc = input("What have you spent on? ")
         if desc in ['cloth', 'watch', 'shoes', 'shirt', 'pants','skirt', 'dress', 'hat']:
             cat = 'Shopping'
-        elif desc in ['lidl', 'kaufland', 'food', 'veggies', 'meat', 'eggs', 'milk', 'aldi']:
+        elif desc in ['lidl', 'kaufland', 'food', 'veggies', 'meat', 'eggs', 'milk', 'aldi', 'edeka', 'rewe', 'penny', 'netto']:
             cat = 'Food & Grocery'
         elif desc in ['meals', 'meal', 'drink','coffee','bakery', 'cake']:
             cat = 'Bar & Restaurants'
@@ -56,7 +56,7 @@ def cumulative_expenses():
             cat = 'Transport & Car'
         elif desc in ['rent', 'apartment']:
             cat = 'Rent'
-        elif desc in ['stock', 'fund', 'bond', 'investment', 'invest''Scalable Capital', 'Trade Republic','scalable', 'trade republic']:
+        elif desc in ['stock','fund','bond','investment','invest','Scalable Capital','Trade Republic','scalable','trade republic']:
             cat = 'Investments'
         elif desc in ['emergency fund','saving']:
             cat = 'Savings'
@@ -90,7 +90,7 @@ def cumulative_expenses():
             
     df.to_csv(f"{name}.csv", index=False)
     
-    print("LAST FIVE EXPENSES: \n",df.tail(5),"\nGood day! "+name+"\nNEWLY ADDED ITEM(S): \n",recent_data)
+    print("LASTEST FIVE EXPENSES: \n",df.tail(5),"\nGood day! "+name+"\nNEWLY ADDED ITEM(S): \n",recent_data)
 
     return df, recent_data, name
 
