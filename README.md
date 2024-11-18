@@ -79,7 +79,7 @@ Feel free to experiment with the example record and provide feedback or contribu
 - Introduced the Emergency Fund Planner (completed).
    - This feature provides users with an overview of their fund status, as illustrated in the examples below:
 
-      - **Case 1: Successful Emergency Fund Build**
+      - **Case 1: Successful Emergency Fund Built**
       ![Status Bar|Case 1](https://github.com/suphawadeeth/expense_tracker/blob/master/emergency_fund/images/exceed_fund.png)
       *Caption: The user has successfully built the emergency fund (labeled as exceed +), surpassing the set goal. The dashed line indicates the emergency fund goal, calculated based on their expenses.*
 
